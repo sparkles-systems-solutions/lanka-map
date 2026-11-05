@@ -16,6 +16,7 @@ test('place search shows a result and selects its coordinates', async ({ page })
     await route.fulfill({
       status: 200,
       contentType: 'application/json',
+      headers: { 'access-control-allow-origin': '*' },
       body: JSON.stringify([{
         place_id: 123,
         display_name: 'Galle Fort, Galle, Sri Lanka',
