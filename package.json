@@ -1,0 +1,13 @@
+{
+  "name": "lanka-map",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Independent Sri Lanka-first mapping platform",
+  "scripts": {
+    "test:uat": "playwright test",
+    "test:uat:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1"
+  }
+}
